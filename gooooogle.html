@@ -24,18 +24,28 @@
 
 .sombra{
   box-shadow:0px 2px 0px #757575;
+  font-style:roboto;
+  font-size:14px;
+  color:black;
+  padding-left:15px;
+}
+
+.microfono{
+  display:block;
+  margin: -40px 0px 0px 550px;
 }
 
   #boton2{
     background-color:#f5f5f0;
     color:#4d4d33;
-
+    margin-top:30px;
+    font-style: roboto;
   }
 
   #boton3{
     background-color:#f5f5f0;
     color:#4d4d33;
-
+    font-style: roboto;
 
   }
 
@@ -43,7 +53,7 @@
     background-color:#f5f5f0;
     color:#4d4d33;
     cursor:pointer;
-    
+
   }
 
 </style>
@@ -63,14 +73,17 @@
   </a>
 </p>
 
+<form action="https://www.google.com/search?q=">
   <section style="margin-top:20px;">
     <p align="center">
-    <input class="sombra"type="text" style="width:600px;height:40px;">
+    <input class="sombra"type="text"name="q" style="width:600px;height:40px;">
+    <img class="microfono"src="google-microfono.jpg" style="height:30px;"/>
   </P>
 
    <p align="center">
    <button id="boton2">Buscar con Google</button>
    <button id="boton3">Me siento con Suerte</button>
+ </form>
  </p>
 
   </section>
